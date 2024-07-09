@@ -16,6 +16,9 @@ public class SchedulingTasksApplication {
 ## create Scheduled Task
 
 주기적인 작업을 위해서 fixedRate(), cron(), fixedDelay()가 있습니다. 선택적으로 한번만 실행되는 경우 initialDelay()을 사용해도 됩니다.
++ fixedRate(): 해당 작업이 시작한 시점부터 시간을 센다.
++ cron(): cron 표현식으로 작성한다.
++ fixedDelay(): 해당 작업이 끝난 시점부터 시간을 센다. 
 
 ~~~ java
 @Component
